@@ -1,17 +1,17 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
-void printName(string name, int n) {
-    if (n == 0) {
+void print_name(int i, int n){
+    if(i>n){
         return;
     }
-    cout << name << endl;
-    printName(name, n - 1); 
+    cout<<"sreehitha"<<endl;
+    print_name(i+1, n);
 }
-int main() {
-    string name;
+int main(){
     int n;
-    cin >> name;
-    cin >> n;
-    printName(name, n);
+    cin>>n;
+    int i;
+    cin>>i;
+    print_name(i, n);
     return 0;
 }
