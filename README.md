@@ -39,7 +39,7 @@ To strengthen problem-solving skills and prepare for coding interviews and place
 
 ## Progress
 
-- [ ] Basics
+- [X] Basics
 - [x] Pattern Problems
 - [ ] Arrays
 - [ ] Strings
