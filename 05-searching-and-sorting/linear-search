@@ -1,0 +1,26 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+#include<vector>
+using namespace std;
+int main() {
+    int k;
+    cout<<"enter a key k: ";
+    cin>>k;
+    int n;
+    cout<<"enter the size of vector(n): ";
+    cin>>n;
+    vector<int> num(n);
+    for(int i=0; i<n; i++){
+        cout<<"Enter element of the array: ";
+        cin>>num[i];
+    }
+    int index=-1;
+    for(int i=0; i<n; i++){
+        if(k==num[i]){
+            index==i;
+            break;
+        }
+    }
+    cout<<index;
+    return 0;
+}
